@@ -1,7 +1,5 @@
 package sum_1stk_array;
-
 import java.util.Scanner;
-
 public class Sum_1stk_array {
     public static void main(String[] args) {
         Scanner a=new Scanner(System.in);
