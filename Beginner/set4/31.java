@@ -16,7 +16,7 @@ public class Sen_let_count {
             char y=in.charAt(i);
             if(y==' ')
             {
-               System.out.println(" White space");
+               
             }
             else
             {
