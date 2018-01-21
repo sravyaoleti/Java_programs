@@ -14,6 +14,6 @@ public class Count_no_of_words {
         {
             v++;
         }
-        System.out.println(v-1);
+        System.out.println(v);
     }
 }
