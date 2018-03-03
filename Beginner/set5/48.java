@@ -1,4 +1,4 @@
-package pkg44.java;
+/package pkg44.java;
 import java.util.*;
 //System.out.println();
 public class Java {
@@ -16,6 +16,6 @@ public class Java {
             sum+=ar[i]; 
          }
 
-            System.out.print(sum);             
+            System.out.print(sum/no);             
     } 
 }
