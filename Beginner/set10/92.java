@@ -1,17 +1,17 @@
 
-package javaapplication49;
+package javaapplica;
 import java.util.Scanner;
-public class JavaApplication49 {
+public class JavaApplica {
     public static void main(String[] args) {
-       Scanner s=new Scanner(System.in);
-       int n=s.nextInt();
-       int[] a=new int[n];
-       int sum=0;
-       for(int i=0;i<n;i++)
+       Scanner scan=new Scanner(System.in);
+       int n1=scan.nextInt();
+       int[] a=new int[n1];
+       int sum34=0;
+       for(int i=0;i<n1;i++)
        {
-           a[i]=s.nextInt();
-           sum+=a[i];
+           a[i]=scan.nextInt();
+           sum34+=a[i];
        }
-       System.out.println(sum);
+       System.out.println(sum34);
     }
 }
