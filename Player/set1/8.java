@@ -2,8 +2,8 @@ import java.util.Scanner;
 public class P8_camelcase {
     public static void main(String[] args) {
      Scanner s=new Scanner(System.in);
-     String s1=s.nextLine();
-     String[] sp=s1.split(" ");
+     String s2=s.nextLine();
+     String s1=s2.toLowerCase();
      String temp="";
      for(int i=0;i<sp.length;i++)
      {
