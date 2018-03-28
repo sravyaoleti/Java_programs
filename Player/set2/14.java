@@ -5,20 +5,23 @@ public class P12 {
     Scanner sc=new Scanner(System.in);
     String ip=sc.nextLine();
     char[] ipch=ip.toCharArray();
+    for(int x=0;x<ipch.length;x++)
+    {
+        if(ipch[x]=='A' || ipch[x]=='E' ||ipch[x]=='I' ||ipch[x]=='O' || ipch[x]=='U')
+        {
+            ipch[x]=Character.toLowerCase(ipch[x]);
+        }
+    }  
     char[] vow={'a','e','i','o','u'};
-    char[] vowup={'A','E','I','O','U'};
-    int f=0,f1=0;
+    int f=0; 
     char[] temp=new char[ipch.length];
     for(int i=0;i<ipch.length;i++)
     {
-        f1=0;f=0;
+        f=0;
         for(int j=0;j<vow.length;j++)
             if(ipch[i]==vow[j])
                 f=1;
-        for(int k=0;k<vowup.length;k++)
-            if(ipch[i]==vow[k])
-                f1=1;
-        if(f==0 && f1==0)
+        if(f==0)
             temp[i]=ipch[i];     
     }
    int start=0,end=temp.length-1;
@@ -30,6 +33,6 @@ public class P12 {
        start++;
        end--;
    }
-   System.out.println(temp);   
-    }
+   System.out.println(temp);
+  }
 }
