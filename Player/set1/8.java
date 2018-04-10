@@ -5,6 +5,7 @@ public class P8_camelcase {
      String s2=s.nextLine();
      String s1=s2.toLowerCase();
      String temp="";
+     String[] sp=s1.split(" ");
      for(int i=0;i<sp.length;i++)
      {
          String x=sp[i].substring(0,1);
