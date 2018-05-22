@@ -24,7 +24,7 @@ class TestClass {
             }
             if(f==1)
             {
-                System.out.println(arr[i]+" "+i);
+                System.out.println(arr[i]);
                     break;
             }
         }
