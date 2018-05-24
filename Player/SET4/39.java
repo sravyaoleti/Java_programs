@@ -5,7 +5,9 @@ class TestClass {
         int n=sc.nextInt();
         
         int mul=1,f=0;
-        for(int i=1;i<=n;i++)
+        if(n>1)
+        {
+            for(int i=1;i<=n;i++)
         {
             mul*=2;
             if(mul==n)
@@ -20,6 +22,11 @@ class TestClass {
         {
             System.out.print("NO");
         }
-
+        }
+        else
+        {
+            System.out.print("YES");
+        }
+        
     }
 }
